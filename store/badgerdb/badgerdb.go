@@ -255,3 +255,6 @@ func (db *BadgerDB) Scan(scannerOpt store.ScannerOptions) error {
 	})
 }
 
+func (db *BadgerDB) Name() string {
+	return "badgerdb"
+}

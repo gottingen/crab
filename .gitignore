@@ -16,5 +16,5 @@
 .vscode
 
 #testdb
-./store/badgerdb/testdb
-./store/leveldb/testdb
+./store/badgerdb/testdb/*
+./store/leveldb/testdb/*

@@ -218,3 +218,7 @@ func (ldb *LevelDB) Scan(scannerOpt store.ScannerOptions) error {
 
 	return iter.Error()
 }
+
+func (ldb *LevelDB) Name() string {
+	return "leveldb"
+}

@@ -13,6 +13,7 @@ type Store interface {
 	Size() int64
 	GC() error
 	Close()
+	Name() string
 }
 
 type ScannerOptions struct {
