@@ -14,3 +14,7 @@
 # ide
 .idea
 .vscode
+
+#testdb
+./store/badgerdb/testdb
+./store/leveldb/testdb
